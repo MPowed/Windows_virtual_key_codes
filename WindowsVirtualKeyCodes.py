@@ -382,9 +382,10 @@ class WindowsVirtualKeyCodes:
 	    # Move the mouse if needed with move_mouse()
 	    self.mouse_event(*self.mouse_left_down)
 	    self.mouse_event(*self.mouse_left_up)
-
+	
+	# Right Click
 	def right_click(self):
-		self.mouse_event(*self.mouse_right_down)
+	    self.mouse_event(*self.mouse_right_down)
 	    self.mouse_event(*self.mouse_right_up)
 		
 
