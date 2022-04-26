@@ -27,7 +27,7 @@ class WindowsVirtualKeyCodes:
 		self.x1_mouse 	  = 0x05 	# X1 mouse button 										# VK_XBUTTON1
 		self.x2_mouse 	  = 0x06 	# X2 mouse button 										# VK_XBUTTON2
 		self.back         = 0x08 	# BACKSPACE key 										# VK_BACK
-		self.tab 	      = 0x09 	# TAB key 											# VK_TAB
+		self.tab 	  = 0x09 	# TAB key 											# VK_TAB
 		self.clear        = 0x0C 	# CLEAR key 											# VK_CLEAR
 		self.enter_key 	  = 0x0D 	# ENTER key 											# VK_RETURN
 		self.shift_key 	  = 0x10 	# SHIFT key 											# VK_SHIFT
@@ -111,7 +111,7 @@ class WindowsVirtualKeyCodes:
 		self.subtract_key	= 0x6D 	# Subtract key 								# K_SUBTRACT 	
 		self.decimal_key	= 0x6E 	# Decimal key 								# VK_DECIMAL 	
 		self.divide_key		= 0x6F 	# Divide key 								# VK_DIVIDE 	
-		self.F1	= 0x70 		# F1 key 									# VK_F1	
+		self.F1	 = 0x70 	# F1 key 									# VK_F1	
 		self.F2  = 0x71 	# F2 key 									# VK_F2 	
 		self.F3  = 0x72 	# F3 key 									# VK_F3	
 		self.F4  = 0x73 	# F4 key 									# VK_F4	
@@ -136,8 +136,8 @@ class WindowsVirtualKeyCodes:
 		self.F23 = 0x86 	# F23 key 									# VK_F23 	
 		self.F24 = 0x87 	# F24 key 									# VK_F24
  	
-		self.num_lock    		 = 0x90 	# NUM LOCK key 				# VK_NUMLOCK
-		self.scroll_lock 		 = 0x91 	# SCROLL LOCK key               	# VK_SCROLL	
+		self.num_lock    	 = 0x90 	# NUM LOCK key 					# VK_NUMLOCK
+		self.scroll_lock 	 = 0x91 	# SCROLL LOCK key               		# VK_SCROLL	
 		self.left_shift_key      = 0xA0 	# Left SHIFT key 				# VK_LSHIFT 	
 		self.right_shift_key     = 0xA1 	# Right SHIFT key 				# VK_RSHIFT 	
 		self.left_ctrl_key       = 0xA2 	# Left CONTROL key 				# VK_LCONTROL 	 	
@@ -151,17 +151,17 @@ class WindowsVirtualKeyCodes:
 		self.browser_search_key  = 0xAA 	# Browser Search key 				# VK_BROWSER_SEARCH 	
 		self.browser_fav_key     = 0xAB 	# Browser Favorites key 			# VK_BROWSER_FAVORITES	
 		self.browser_home_key    = 0xAC 	# Browser Start and Home key 			# VK_BROWSER_HOME  	
-		self.vol_mute         = 0xAD 	# Volume Mute key 					# VK_VOLUME_MUTE 	
-		self.vol_down         = 0xAE 	# Volume Down key					# VK_VOLUME_DOWN 	
-		self.vol_up           = 0xAF 	# Volume Up key 					# VK_VOLUME_UP	
-		self.media_next   	  = 0xB0 	# Next Track key 				# VK_MEDIA_NEXT_TRACK 	
-		self.media_prev       = 0xB1 	# Previous Track key 					# VK_MEDIA_PREV_TRACK  	
-		self.media_stop       = 0xB2 	# Stop Media key 					# VK_MEDIA_STOP	
-		self.media_play_pause = 0xB3 	# Play/Pause Media key 					# VK_MEDIA_PLAY_PAUSE  	
-		self.mail_key         = 0xB4 	# Start Mail key 					# VK_LAUNCH_MAIL
-		self.launch_media_key = 0xB5 	# Select Media key 					# VK_LAUNCH_MEDIA_SELECT 	
-		self.start_app_1      = 0xB6 	# Start Application 1 key           			# VK_LAUNCH_APP1	
-		self.start_app_2      = 0xB7 	# Start Application 2 key 				# VK_LAUNCH_APP2 
+		self.vol_mute         	 = 0xAD 	# Volume Mute key 				# VK_VOLUME_MUTE 	
+		self.vol_down            = 0xAE 	# Volume Down key				# VK_VOLUME_DOWN 	
+		self.vol_up              = 0xAF 	# Volume Up key 				# VK_VOLUME_UP	
+		self.media_next   	 = 0xB0 	# Next Track key 				# VK_MEDIA_NEXT_TRACK 	
+		self.media_prev          = 0xB1 	# Previous Track key 				# VK_MEDIA_PREV_TRACK  	
+		self.media_stop          = 0xB2 	# Stop Media key 				# VK_MEDIA_STOP	
+		self.media_play_pause    = 0xB3 	# Play/Pause Media key 				# VK_MEDIA_PLAY_PAUSE  	
+		self.mail_key            = 0xB4 	# Start Mail key 				# VK_LAUNCH_MAIL
+		self.launch_media_key    = 0xB5 	# Select Media key 				# VK_LAUNCH_MEDIA_SELECT 	
+		self.start_app_1         = 0xB6 	# Start Application 1 key           		# VK_LAUNCH_APP1	
+		self.start_app_2         = 0xB7 	# Start Application 2 key 			# VK_LAUNCH_APP2 
 
 
 		# OEM Stuff
