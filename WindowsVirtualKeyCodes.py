@@ -22,36 +22,36 @@ class WindowsVirtualKeyCodes:
 
 		self.left_mouse   = 0x01	# Left mouse button 										# VK_LBUTTON
 		self.right_mouse  = 0x02    # Right mouse button 										# VK_RBUTTON
-		self.cancel 	  = 0x03    # Control-break processing									# VK_CANCEL 
-		self.middle_mouse = 0x04 	# Middle mouse button (three-button mouse)					# VK_MBUTTON
-		self.x1_mouse 	  = 0x05 	# X1 mouse button 											# VK_XBUTTON1
-		self.x2_mouse 	  = 0x06 	# X2 mouse button 											# VK_XBUTTON2
-		self.back         = 0x08 	# BACKSPACE key 											# VK_BACK
-		self.tab 	      = 0x09 	# TAB key 													# VK_TAB
-		self.clear        = 0x0C 	# CLEAR key 												# VK_CLEAR
-		self.enter_key 	  = 0x0D 	# ENTER key 												# VK_RETURN
-		self.shift_key 	  = 0x10 	# SHIFT key 												# VK_SHIFT
-		self.ctrl_key 	  = 0x11 	# CTRL key 													# VK_CONTROL
-		self.alt     	  = 0x12 	# ALT key 													# VK_MENU
-		self.pause_key 	  = 0x13 	# PAUSE key 												# VK_PAUSE
-		self.caps_lock 	  = 0x14 	# CAPS LOCK key 											# VK_CAPITAL
-		self.esc_key 	  = 0x1B 	# ESC key 													# VK_ESCAPE
-		self.space_key    = 0x20 	# SPACEBAR   												# VK_SPACE 	
-		self.page_up  	  = 0x21 	# PAGE UP key                  								# VK_PRIOR 	
-		self.page_down	  = 0x22 	# PAGE DOWN key 											# VK_NEXT 		
-		self.end_key 	  = 0x23 	# END key 													# VK_END 
-		self.home_key 	  = 0x24 	# HOME key 													# VK_HOME 	
-		self.left_arrow   = 0x25 	# LEFT ARROW key 											# VK_LEFT 	 	
-		self.up_arrow 	  = 0x26 	# UP ARROW key 												# VK_UP
-		self.right_arrow  = 0x27 	# RIGHT ARROW key 											# VK_UP
-		self.down_arrow   = 0x28 	# DOWN ARROW key 											# VK_DOWN 	 	
-		self.select_key   = 0x29 	# SELECT key 												# VK_SELECT	
-		self.print_key 	  = 0x2A 	# PRINT key 												# VK_PRINT  	
-		self.execute_key  = 0x2B 	# EXECUTE key 												# VK_EXECUTE	
-		self.print_screen = 0x2C 	# PRINT SCREEN key 											# VK_SNAPSHOT 	
-		self.insert_key   = 0x2D 	# INS key 													# VK_INSERT	
-		self.delete_key   = 0x2E 	# DEL key 													# VK_DELETE	
-		self.help_key	  = 0x2F 	# HELP key 													# VK_HELP 
+		self.cancel 	  = 0x03    # Control-break processing									        # VK_CANCEL 
+		self.middle_mouse = 0x04 	# Middle mouse button (three-button mouse)					                # VK_MBUTTON
+		self.x1_mouse 	  = 0x05 	# X1 mouse button 										# VK_XBUTTON1
+		self.x2_mouse 	  = 0x06 	# X2 mouse button 										# VK_XBUTTON2
+		self.back         = 0x08 	# BACKSPACE key 										# VK_BACK
+		self.tab 	      = 0x09 	# TAB key 											# VK_TAB
+		self.clear        = 0x0C 	# CLEAR key 											# VK_CLEAR
+		self.enter_key 	  = 0x0D 	# ENTER key 											# VK_RETURN
+		self.shift_key 	  = 0x10 	# SHIFT key 											# VK_SHIFT
+		self.ctrl_key 	  = 0x11 	# CTRL key 											# VK_CONTROL
+		self.alt     	  = 0x12 	# ALT key 											# VK_MENU
+		self.pause_key 	  = 0x13 	# PAUSE key 											# VK_PAUSE
+		self.caps_lock 	  = 0x14 	# CAPS LOCK key 										# VK_CAPITAL
+		self.esc_key 	  = 0x1B 	# ESC key 											# VK_ESCAPE
+		self.space_key    = 0x20 	# SPACEBAR   											# VK_SPACE 	
+		self.page_up  	  = 0x21 	# PAGE UP key                  									# VK_PRIOR 	
+		self.page_down	  = 0x22 	# PAGE DOWN key 										# VK_NEXT 		
+		self.end_key 	  = 0x23 	# END key 											# VK_END 
+		self.home_key 	  = 0x24 	# HOME key 											# VK_HOME 	
+		self.left_arrow   = 0x25 	# LEFT ARROW key 										# VK_LEFT 	 	
+		self.up_arrow 	  = 0x26 	# UP ARROW key 											# VK_UP
+		self.right_arrow  = 0x27 	# RIGHT ARROW key 										# VK_UP
+		self.down_arrow   = 0x28 	# DOWN ARROW key 										# VK_DOWN 	 	
+		self.select_key   = 0x29 	# SELECT key 											# VK_SELECT	
+		self.print_key 	  = 0x2A 	# PRINT key 											# VK_PRINT  	
+		self.execute_key  = 0x2B 	# EXECUTE key 											# VK_EXECUTE	
+		self.print_screen = 0x2C 	# PRINT SCREEN key 										# VK_SNAPSHOT 	
+		self.insert_key   = 0x2D 	# INS key 											# VK_INSERT	
+		self.delete_key   = 0x2E 	# DEL key 											# VK_DELETE	
+		self.help_key	  = 0x2F 	# HELP key 											# VK_HELP 
 
 
 		self.zero_key    = 0x30 	# 0 key
@@ -94,23 +94,23 @@ class WindowsVirtualKeyCodes:
 		self.left_windows_key   = 0x5B 	# Left Windows key (Natural keyboard) 					# VK_LWIN  	
 		self.right_windows_key  = 0x5C 	# Right Windows key (Natural keyboard) 					# VK_RWIN
 		self.app_key          	= 0x5D 	# Applications key (Natural keyboard) 					# VK_APPS 	
-		self.comp_sleep_key     = 0x5F 	# Computer Sleep key 									# VK_SLEEP
-		self.zero_numpad 	= 0x60 	# Numeric keypad 0 key 										# VK_NUMPAD0
-		self.one_numpad     = 0x61 	# Numeric keypad 1 key 										# VK_NUMPAD1 	
-		self.two_numpad		= 0x62 	# Numeric keypad 2 key 										# VK_NUMPAD2
-		self.three_numpad 	= 0x63 	# Numeric keypad 3 key 										# VK_NUMPAD3
-		self.four_numpad 	= 0x64 	# Numeric keypad 4 key 										# VK_NUMPAD4 	 	
-		self.five__numpad	= 0x65 	# Numeric keypad 5 key 										# VK_NUMPAD5 	
-		self.six_numpad		= 0x66 	# Numeric keypad 6 key 										# VK_NUMPAD6 	
-		self.seven_numpad	= 0x67 	# Numeric keypad 7 key 										# VK_NUMPAD7 	
-		self.eight_numpad	= 0x68 	# Numeric keypad 8 key 										# VK_NUMPAD8 	
-		self.nine_numpad	= 0x69 	# Numeric keypad 9 key 										# VK_NUMPAD9 	
-		self.multiply_key	= 0x6A 	# Multiply key 												# VK_MULTIPLY 	
-		self.add_key		= 0x6B 	# Add key 													# VK_ADD
-		self.seperator_key	= 0x6C 	# Separator key 											# VK_SEPARATOR 	 	
-		self.subtract_key	= 0x6D 	# Subtract key 												# VK_SUBTRACT 	
-		self.decimal_key	= 0x6E 	# Decimal key 												# VK_DECIMAL 	
-		self.divide_key		= 0x6F 	# Divide key 												# VK_DIVIDE 	
+		self.comp_sleep_key     = 0x5F 	# Computer Sleep key 							# VK_SLEEP
+		self.zero_numpad 	= 0x60 	# Numeric keypad 0 key 							# VK_NUMPAD0
+		self.one_numpad     	= 0x61 	# Numeric keypad 1 key 							# VK_NUMPAD1 	
+		self.two_numpad		= 0x62 	# Numeric keypad 2 key 							# VK_NUMPAD2
+		self.three_numpad 	= 0x63 	# Numeric keypad 3 key 							# VK_NUMPAD3
+		self.four_numpad 	= 0x64 	# Numeric keypad 4 key 							# VK_NUMPAD4 	 	
+		self.five__numpad	= 0x65 	# Numeric keypad 5 key 							# VK_NUMPAD5 	
+		self.six_numpad		= 0x66 	# Numeric keypad 6 key 							# VK_NUMPAD6 	
+		self.seven_numpad	= 0x67 	# Numeric keypad 7 key 							# VK_NUMPAD7 	
+		self.eight_numpad	= 0x68 	# Numeric keypad 8 key 							# VK_NUMPAD8 	
+		self.nine_numpad	= 0x69 	# Numeric keypad 9 key 							# VK_NUMPAD9 	
+		self.multiply_key	= 0x6A 	# Multiply key 								# VK_MULTIPLY 	
+		self.add_key		= 0x6B 	# Add key 								# VK_ADD
+		self.seperator_key	= 0x6C 	# Separator key 							# VK_SEPARATOR 	 	
+		self.subtract_key	= 0x6D 	# Subtract key 								# K_SUBTRACT 	
+		self.decimal_key	= 0x6E 	# Decimal key 								# VK_DECIMAL 	
+		self.divide_key		= 0x6F 	# Divide key 								# VK_DIVIDE 	
 		self.F1	= 0x70 		# F1 key 									# VK_F1	
 		self.F2  = 0x71 	# F2 key 									# VK_F2 	
 		self.F3  = 0x72 	# F3 key 									# VK_F3	
@@ -125,7 +125,7 @@ class WindowsVirtualKeyCodes:
 		self.F12 = 0x7B 	# F12 key 									# VK_F12
 		self.F13 = 0x7C 	# F13 key 									# VK_F13 	
 		self.F14 = 0x7D  	# F14 key 									# VK_F14 	
-		self.F15 = 0x7E 	# F15 key                                   # VK_F15	
+		self.F15 = 0x7E 	# F15 key                                   					# VK_F15	
 		self.F16 = 0x7F 	# F16 key 									# VK_F16	
 		self.F17 = 0x80 	# F17 key 									# VK_F17 	 	 
 		self.F18 = 0x81 	# F18 key 									# VK_F18 	
@@ -136,32 +136,32 @@ class WindowsVirtualKeyCodes:
 		self.F23 = 0x86 	# F23 key 									# VK_F23 	
 		self.F24 = 0x87 	# F24 key 									# VK_F24
  	
-		self.num_lock    		 = 0x90 	# NUM LOCK key 					# VK_NUMLOCK
-		self.scroll_lock 		 = 0x91 	# SCROLL LOCK key               # VK_SCROLL	
+		self.num_lock    		 = 0x90 	# NUM LOCK key 				# VK_NUMLOCK
+		self.scroll_lock 		 = 0x91 	# SCROLL LOCK key               	# VK_SCROLL	
 		self.left_shift_key      = 0xA0 	# Left SHIFT key 				# VK_LSHIFT 	
 		self.right_shift_key     = 0xA1 	# Right SHIFT key 				# VK_RSHIFT 	
 		self.left_ctrl_key       = 0xA2 	# Left CONTROL key 				# VK_LCONTROL 	 	
-		self.right_ctrl_key      = 0xA3 	# Right CONTROL key 			# VK_RCONTROL	
+		self.right_ctrl_key      = 0xA3 	# Right CONTROL key 				# VK_RCONTROL	
 		self.left_menu_key       = 0xA4 	# Left MENU key 				# VK_LMENU 	
 		self.right_menu_key      = 0xA5 	# Right MENU key   				# VK_RMENU 	
 		self.browser_back_key    = 0xA6 	# Browser Back key 				# VK_BROWSER_BACK 	
-		self.browser_forward_key = 0xA7 	# Browser Forward key 			# VK_BROWSER_FORWARD  	
-		self.browser_refresh_key = 0xA8 	# Browser Refresh key 			# VK_BROWSER_REFRESH 	
+		self.browser_forward_key = 0xA7 	# Browser Forward key 				# VK_BROWSER_FORWARD  	
+		self.browser_refresh_key = 0xA8 	# Browser Refresh key 				# VK_BROWSER_REFRESH 	
 		self.browser_stop_key    = 0xA9 	# Browser Stop key 				# VK_BROWSER_STOP 	
-		self.browser_search_key  = 0xAA 	# Browser Search key 			# VK_BROWSER_SEARCH 	
-		self.browser_fav_key     = 0xAB 	# Browser Favorites key 		# VK_BROWSER_FAVORITES	
-		self.browser_home_key    = 0xAC 	# Browser Start and Home key 	# VK_BROWSER_HOME  	
+		self.browser_search_key  = 0xAA 	# Browser Search key 				# VK_BROWSER_SEARCH 	
+		self.browser_fav_key     = 0xAB 	# Browser Favorites key 			# VK_BROWSER_FAVORITES	
+		self.browser_home_key    = 0xAC 	# Browser Start and Home key 			# VK_BROWSER_HOME  	
 		self.vol_mute         = 0xAD 	# Volume Mute key 					# VK_VOLUME_MUTE 	
 		self.vol_down         = 0xAE 	# Volume Down key					# VK_VOLUME_DOWN 	
 		self.vol_up           = 0xAF 	# Volume Up key 					# VK_VOLUME_UP	
-		self.media_next   	  = 0xB0 	# Next Track key 					# VK_MEDIA_NEXT_TRACK 	
-		self.media_prev       = 0xB1 	# Previous Track key 				# VK_MEDIA_PREV_TRACK  	
+		self.media_next   	  = 0xB0 	# Next Track key 				# VK_MEDIA_NEXT_TRACK 	
+		self.media_prev       = 0xB1 	# Previous Track key 					# VK_MEDIA_PREV_TRACK  	
 		self.media_stop       = 0xB2 	# Stop Media key 					# VK_MEDIA_STOP	
-		self.media_play_pause = 0xB3 	# Play/Pause Media key 				# VK_MEDIA_PLAY_PAUSE  	
+		self.media_play_pause = 0xB3 	# Play/Pause Media key 					# VK_MEDIA_PLAY_PAUSE  	
 		self.mail_key         = 0xB4 	# Start Mail key 					# VK_LAUNCH_MAIL
 		self.launch_media_key = 0xB5 	# Select Media key 					# VK_LAUNCH_MEDIA_SELECT 	
-		self.start_app_1      = 0xB6 	# Start Application 1 key           # VK_LAUNCH_APP1	
-		self.start_app_2      = 0xB7 	# Start Application 2 key 			# VK_LAUNCH_APP2 
+		self.start_app_1      = 0xB6 	# Start Application 1 key           			# VK_LAUNCH_APP1	
+		self.start_app_2      = 0xB7 	# Start Application 2 key 				# VK_LAUNCH_APP2 
 
 
 		# OEM Stuff
@@ -183,9 +183,9 @@ class WindowsVirtualKeyCodes:
 							# Used for miscellaneous characters; it can vary by keyboard. 					
 		self.oem_6_key  = 0xDD 	# For the US keyboard, the ']}' key 								# VK_OEM_6
 							# Used for miscellaneous characters; it can vary by keyboard. 	
-		self.oem_7_key  = 0xDE 	# For the US keyboard, the 'single-quote/double-quote' key 			# VK_OEM_7
+		self.oem_7_key  = 0xDE 	# For the US keyboard, the 'single-quote/double-quote' key 					# VK_OEM_7
 							# Used for miscellaneous characters; it can vary by keyboard. 					
-		self.oem_8_key  = 0xDF 	# Used for miscellaneous characters; it can vary by keyboard. 		# VK_OEM_8 	
+		self.oem_8_key  = 0xDF 	# Used for miscellaneous characters; it can vary by keyboard. 					# VK_OEM_8 	
 
 
 		"""
